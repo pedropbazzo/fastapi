@@ -174,4 +174,4 @@ def get_swagger_ui_oauth2_redirect_html() -> HTMLResponse:
         }
     </script>
         """
-    return HTMLResponse(content=html)
+    return HTMLResponse(content=html) 
